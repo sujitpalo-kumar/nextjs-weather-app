@@ -28,7 +28,7 @@ const WeatherDetails = ({ data }: WeatherDetailsProps) => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-center italic font-bold">
         <div className="bg-white/50 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-full flex p-4 items-center justify-center gap-6">
-          <div className="text-2xl">
+          <div className="">
             <h3>Humidity</h3>
             <h3
               className="text-white bg-black/25 rounded-full mt-1"
